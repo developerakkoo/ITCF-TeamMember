@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.teammember"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/akkooakshay/Akshay/ITCF-Projects/teammember/android/app/src/main/AndroidManifest.xml:34:5-67
+15-->/Users/akkooakshay/Akshay/ITCF-Projects/teammember/android/app/src/main/AndroidManifest.xml:34:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/akkooakshay/Akshay/ITCF-Projects/teammember/android/app/src/main/AndroidManifest.xml:36:5-80
+16-->/Users/akkooakshay/Akshay/ITCF-Projects/teammember/android/app/src/main/AndroidManifest.xml:36:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+17-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+18
+19    <queries>
+19-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+20        <intent>
+20-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+21            <action android:name="android.intent.action.GET_CONTENT" />
+21-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+21-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+22
+23            <data android:mimeType="*/*" />
+23-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+23-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+24        </intent>
+25        <intent>
+25-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:11:9-17:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+26-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+27
+28            <data
+28-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+29                android:mimeType="*/*"
+29-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+30                android:scheme="*" />
+31        </intent>
+32        <intent>
+32-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:18:9-27:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+33-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+34
+35            <category android:name="android.intent.category.BROWSABLE" />
+35-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:13-74
+35-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:23-71
+36
+37            <data
+37-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+38                android:host="pay"
+39                android:mimeType="*/*"
+39-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+40                android:scheme="upi" />
+41        </intent>
+42        <intent>
+42-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:28:9-30:18
+43            <action android:name="android.intent.action.MAIN" />
+43-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:29:13-65
+43-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:29:21-62
+44        </intent>
+45        <intent>
+45-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:31:9-35:18
+46            <action android:name="android.intent.action.SEND" />
+46-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:13-65
+46-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:21-62
+47
+48            <data android:mimeType="*/*" />
+48-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+48-->[:file_picker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+49        </intent>
+50        <intent>
+50-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:36:9-38:18
+51            <action android:name="rzp.device_token.share" />
+51-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+51-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+52        </intent>
+53    </queries>
+54
+55    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- Include required permissions for Google Maps API to run. -->
+55-->[:fluttercontactpicker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/fluttercontactpicker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-72
+55-->[:fluttercontactpicker] /Users/akkooakshay/Akshay/ITCF-Projects/teammember/build/fluttercontactpicker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-69
+56    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+56-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+56-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+57
+58    <uses-feature
+58-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+59        android:glEsVersion="0x00020000"
+59-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+60        android:required="true" />
+60-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+61
+62    <application
+63        android:name="android.app.Application"
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.6.0] /Users/akkooakshay/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+65        android:debuggable="true"
+66        android:icon="@mipmap/ic_launcher"
+67        android:label="teammember" >
+68        <activity
+69            android:name="com.example.teammember.MainActivity"
+70            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+71            android:exported="true"
+72            android:hardwareAccelerated="true"
+73            android:launchMode="singleTop"
+74            android:theme="@style/LaunchTheme"
+75            android:windowSoftInputMode="adjustResize" >
+76
+77            <!--
+78                 Specifies an Android theme to apply to this Activity as soon as
+79                 the Android process has started. This theme is visible to the user
+80                 while the Flutter UI initializes. After that, this theme continues
+81                 to determine the Window background behind the Flutter UI.
+82            -->
+83            <meta-data
+84                android:name="io.flutter.embedding.android.NormalTheme"
+85                android:resource="@style/NormalTheme" />
+86
+87            <intent-filter>
+88                <action android:name="android.intent.action.MAIN" />
+88-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:29:13-65
+88-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:29:21-62
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+91            </intent-filter>
+92        </activity>
+93        <!--
+94             Don't delete the meta-data below.
+95             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+96        -->
+97        <meta-data
+98            android:name="flutterEmbedding"
+99            android:value="2" />
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0-beta04] /Users/akkooakshay/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0-beta04] /Users/akkooakshay/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0-beta04] /Users/akkooakshay/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] /Users/akkooakshay/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0-beta04] /Users/akkooakshay/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] /Users/akkooakshay/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+107
+108        <receiver
+108-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:42:9-49:20
+109            android:name="com.razorpay.RzpTokenReceiver"
+109-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:43:13-57
+110            android:exported="true" >
+110-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:44:13-36
+111            <intent-filter>
+111-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:46:13-48:29
+112                <action android:name="rzp.device_token.share" />
+112-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+112-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+113            </intent-filter>
+114        </receiver>
+115
+116        <activity
+116-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:51:9-59:20
+117            android:name="com.razorpay.CheckoutActivity"
+117-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:52:13-57
+118            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+118-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:53:13-83
+119            android:exported="true"
+119-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:54:13-36
+120            android:theme="@style/CheckoutTheme" >
+120-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:55:13-49
+121            <intent-filter>
+121-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:56:13-58:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:29:13-65
+122-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:29:21-62
+123            </intent-filter>
+124        </activity>
+125
+126        <meta-data
+126-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:61:9-63:58
+127            android:name="com.razorpay.plugin.googlepay_all"
+127-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:62:13-61
+128            android:value="com.razorpay.RzpGpayMerged" />
+128-->[com.razorpay:checkout:1.6.32] /Users/akkooakshay/.gradle/caches/transforms-3/88ec77631765a1052829a2758ce3a4fb/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:63:13-55
+129
+130        <activity
+130-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+131            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+131-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+132            android:excludeFromRecents="true"
+132-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+135        <!--
+136            Service handling Google Sign-In user revocation. For apps that do not integrate with
+137            Google Sign-In, this service will never be started.
+138        -->
+139        <service
+139-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+140            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+140-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+141            android:exported="true"
+141-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+142            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+142-->[com.google.android.gms:play-services-auth:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+143        <uses-library
+143-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+144            android:name="org.apache.http.legacy"
+144-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+145            android:required="false" />
+145-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akkooakshay/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+146
+147        <activity
+147-->[com.google.android.gms:play-services-base:17.5.0] /Users/akkooakshay/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+148            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+148-->[com.google.android.gms:play-services-base:17.5.0] /Users/akkooakshay/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-base:17.5.0] /Users/akkooakshay/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.google.android.gms:play-services-base:17.5.0] /Users/akkooakshay/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+151
+152        <meta-data
+152-->[com.google.android.gms:play-services-basement:17.6.0] /Users/akkooakshay/.gradle/caches/transforms-3/6b7f95937f60a49f8f6dbe5da5fed9cd/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+153            android:name="com.google.android.gms.version"
+153-->[com.google.android.gms:play-services-basement:17.6.0] /Users/akkooakshay/.gradle/caches/transforms-3/6b7f95937f60a49f8f6dbe5da5fed9cd/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+154            android:value="@integer/google_play_services_version" />
+154-->[com.google.android.gms:play-services-basement:17.6.0] /Users/akkooakshay/.gradle/caches/transforms-3/6b7f95937f60a49f8f6dbe5da5fed9cd/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+155    </application>
+156
+157</manifest>
